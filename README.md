@@ -1,6 +1,7 @@
 # Lab 8 - Starter
 Jenny Lam
 
+[link to screenshot]("screenshot.png")
 1. I would pick 1. This is so the tests are automated and always run when I decide to change the code or add a feature without me thinking to manually run them.
 
 2. No
