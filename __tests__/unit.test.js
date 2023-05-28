@@ -3,25 +3,25 @@
 const functions = require('../code-to-unit-test/unit-test-me.js');
 
 // TODO - Part 2
-test('is phone number - correct', () => {
+test('isPhoneNumber - correct', () => {
     // TODO
     const res = functions.isPhoneNumber("(423) 342-8932")
     expect(res).toBe(true);
 });
 
-test('is phone number - correct', () => {
+test('isPhoneNumber - correct', () => {
     // TODO
     const res = functions.isPhoneNumber("(000) 000-0000")
     expect(res).toBe(true);
 });
 
-test('is phone number - incorrect', () => {
+test('isPhoneNumber - incorrect', () => {
 // TODO
     const res = functions.isPhoneNumber("(4233232342sas8932")
     expect(res).toBe(false);
 });
 
-test('is phone number - incorrect', () => {
+test('isPhoneNumber - incorrect', () => {
     // TODO
     const res = functions.isPhoneNumber("34")
     expect(res).toBe(false);
